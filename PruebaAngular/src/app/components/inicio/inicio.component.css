@@ -1,5 +1,5 @@
 .container1{width: 100%;}
-.titulos h2{color: white;margin-left: 7%;font-family: 'Rubik', sans-serif;}
+.titulos h2{color: white; margin-left: 5%;font-family: 'Rubik', sans-serif;}
 .titulos{background-color: rgb(61, 61, 61); padding: 10px;}
 .containerp{display: flex;}
 .series, .peliculas{border: solid black; margin-left: 100px; margin-top: 100px;background-color: black;height: 350px;}

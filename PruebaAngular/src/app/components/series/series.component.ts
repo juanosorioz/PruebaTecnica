@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SampleService } from 'src/app/services/sample.service';
 
 @Component({
   selector: 'app-series',
@@ -7,9 +8,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SeriesComponent implements OnInit {
 
-  constructor() { }
+  sample: any
+
+  constructor(private sampleServices: SampleService) { }
 
   ngOnInit(): void {
+    this.sampleServices.getProducto()
+    .subscribe({ 
+      next: (sample: any) =>{
+        this.sample = sample
+        console.log(this.sample)
+      },
+      error: (err: any) =>{
+        console.log(err)
+      },
+      complete: () =>{
+        console.log('completado')
+      }
+     })
   }
 
 }
