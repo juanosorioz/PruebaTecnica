@@ -1,8 +1,0 @@
-.container1{width: 100%;}
-.titulos h2{color: white; margin-left: 5%;font-family: 'Rubik', sans-serif;}
-.titulos{background-color: rgb(61, 61, 61); padding: 10px;}
-.containerp{display: flex;}
-.series{border: solid black; margin-left: 100px; margin-top: 100px;background-color: black;height: 350px;}
-.series img, .peliculas img{position: relative;width: 100%; margin-top: 100px;}
-.nombres{display: flex;}
-.s{margin-left: 7.5%; font-family: 'Rubik', sans-serif;margin-top: 10px;}
